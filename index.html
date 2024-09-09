@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>A procura de algum lugar</title>
+</head>
+<body>
+   <main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.jpg" alt="">
+    <p>Eu e meu amigo João estávamos à procura de um lugar para viajar. A ideia de viajar pelo Brasil surgiu, e acabamos entrando em discussão, para qual região iríamos.
+    </p>
+        <button class="btn-proximo" data-proximo="1">Nordeste</button>
+        <button class="btn-proximo" data-proximo="2">Sudeste</button>
+    </div>
+
+    <div class="passo" id="passo-1">
+        <p>Você escolheu a região Nordeste. Agora escolha um estado, para descobrir o ponto turístico</p>
+        <button class="btn-proximo" data-proximo="3">Maranhão</button>
+        <button class="btn-proximo" data-proximo="4">Bahia</button>
+    </div>
+
+    <div class="passo" id="passo-2"> 
+        <p>Você escolheu a região Sudeste. Agora escolha um estado, para descobrir o ponto turístico</p>
+        <button class="btn-proximo" data-proximo="5">Rio de Janeiro</button>
+        <button class="btn-proximo" data-proximo="6">Minas Gerais</button>
+
+    </div>
+    <div class="passo" id="passo-3"> 
+        <img src="cenario-passo3.jpg" alt="">
+        <p>São Luís do Maranhão  é patrimônio cultural da humanidade e é riquíssima em vida cultural. Aproveite as praias, o Centro Histórico, os diversos museus gratuitos, a feirinha aos domingos, o Mirante da Cidade e muito mais que São Luís tem a oferecer.</p>
+        <button class="btn-proximo" data-proximo="7">Não gostei desse ponto turístico</button>
+        <button class="btn-proximo" data-proximo="0">Voltar para o ínicio</button> 
+    </div>
+    <div class="passo" id="passo-4">
+        <img src="cenario-passo4.jpg" alt="">
+        <p>Pelourinho fica em Salvador local que abrigou uma história tão triste, atualmente é sinônimo de muita música, cultura e arte baiana. Reconhecido como Patrimônio Histórico da Humanidade, quem visita o espaço pode conferir igrejas com uma arquitetura marcante, como a Catedral Basílica e a Igreja do Rosário dos Homens Pretos, a Fundação Jorge Amado, além de restaurantes, bares, centros culturais, atrações artísticas, museus e muito mais. </p>
+        <button class="btn-proximo" data-proximo="8">Não gostei desse ponto turístico</button>
+        <button class="btn-proximo" data-proximo="0">Voltar para o ínicio</button>
+    </div>
+    <div class="passo" id="passo-5">
+        <img src="cenario-passo5.jpg" alt="">
+        <p>Pão de Açucar Inaugurado em 1912, foi o primeiro teleférico colocado no país, terceiro no mundo e é um dos principais pontos turísticos do Rio de Janeiro.
+        A atração é atualmente um dos mais belos cartões postais da cidade e do Brasil e já recebeu cerca de 40 milhões de visitantes desde que foi inaugurada. 
+        O passeio começa na Praia Vermelha, faz uma pausa no Morro da Urca e finaliza no topo do Morro do Pão de Açúcar.
+        De lá de cima você consegue ver várias das principais praias, como Copacabana, Ipanema, Leblon e a Praia do Leme.</p>
+        <button class="btn-proximo" data-proximo="9">Não gostei desse ponto turístico</button>
+        <button class="btn-proximo" data-proximo="0">Voltar para o ínicio</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <img src="cenario-passo6.jpg" alt="">
+         <p>Circuito das Grutas, fica entre as cidades de Cordisburgo, Sete Lagoas e Lagoa Santa há um belíssimo circuito para quem curte grutas e outras formações geológicas. Um passeio pela região permite conhecer atrações magníficas, entre elas a Gruta de Maquiné, a Gruta do Rei do Mato e a Gruta da Lapinha. É uma boa pedida especialmente para quem já está com o pé na estrada, na rota entre Brasília e Rio de Janeiro. Faça uma parada na região, descanse da viagem, aproveite as atrações e, claro, a culinária mineira! </p>
+         <button class="btn-proximo" data-proximo="10">Não gostei desse ponto turístico</button>
+         <button class="btn-proximo" data-proximo="0">Voltar para o ínicio</button>
+        </div>
+    <div class="passo" id="passo-7">
+        <img src="cenario-passo7.png" alt=""> 
+        <p>Os Lençóis Maranhenses atraem os turistas especialmente pelas lindas lagoas de água doce em meio às dunas. O cenário é deslumbrante e único no mundo, valendo cada minuto dentro do Parque Nacional dos Lençóis Maranhenses. Apesar de as lagoas serem o principal foco do turismo na região, os Lençóis convidam a aproveitar outros belos cenários, como praias, rios, mangues e povoados aconchegantes. </p>
+        <button class="btn-proximo" data-proximo="0">Voltar</button>
+    </div>
+    <div class="passo" id=passo-8>
+        <img src="cenario-passo8.jpg" alt="">
+        <p>Itacaré é um dos pontos turísticos preferidos dos turistas, inclusive estrangeiros, é Itacaré. O lugar mistura a beleza de suas praias com muita cultura popular. 
+    As praias da Concha e da Coroa, por exemplo, são as preferidas de quem conhece Itacaré. O pôr do sol no mirante do Xaréu é algo para apreciar num momento de gratidão e reflexão</p>
+    <button class="btn-proximo" data-proximo="0">Voltar</button>
+       </div>
+    <div class="passo" id="passo-9"> 
+        <img src="cenario-passo9.jpg" alt="">
+        <p>A Escadaria Selarón fica no Rio de Janeiro, entre os bairros de Santa Teresa e Lapa. É uma obra arquitetônica decorada pelo artista chileno Jorge Selarón, que a declarou uma homenagem ao povo brasileiro.
+            A visita não custa nada e realmente merece a sua atenção por ser um lugar bem bonito. Além disso, o local aparece em diversos videoclipes da música mundial, por exemplo, entre artistas como U2 e Snoop Dogg.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar</button>
+        
+        </div>
+    <div class="passo" id="passo-10">
+        <img src="cenario-passo10.jpg" alt="">
+     <p>Ouro Preto é o principal destino entre o roteiro de cidades históricas de Minas Gerais. Fundada no século XVIII, período que o Brasil era colônia, Ouro Preto reserva paisagens e obras de arte de incalculável valor, além de alguns dos principais pontos turísticos de Minas Gerais. Em meio a incontáveis ladeiras, o viajante poderá apreciar traços importantes da arquitetura colonial, obras de alguns dos mais expressivos nomes da arte nacional, como Aleijadinho e Mestre Ataíde e também experimentar os mais tradicionais sabores mineiros.</p>
+     <button class="btn-proximo" data-proximo="0">Voltar</button>
+    </div>
+   </main>
+   <script src="script.js"></script>
+
+</body>
+</html>
